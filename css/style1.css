@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+body{
+    display: block;
+    margin: 0;
+    min-height: 1000px;
+
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color:burlywood;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.89;
+    padding:0;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height:100px;
+    margin: 3px 6px;
+    
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+    float: right;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 2;
+    float: right;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 4px 22px;
+    margin: 2;
+    border-radius: 20px;
+    text-decoration: none;
+    float:right;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color:white;
+}
+
+/* Home Section */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:1px 200px;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+#home::before{ 
+    content: "";
+    position: absolute;
+    background: url('../images/—Pngtree—2.jpg') no-repeat center center/cover;
+    height: 1050px;
+    padding:0;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index:-1;
+    opacity:1;
+    
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+    font-size:5em;
+    margin-right: 6%;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 3%;
+    
+}
+
+#home p{
+    color:black;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Akaya Telivigala', cursive;
+    padding-top: 0;
+    margin-top:4;
+    background-color:#f8c291;
+    font-style: italic;
+
+}
+.foodsearch input[type="search"]
+ {
+     width: 50%;
+     font-size: 1rem;
+     border:none;
+     margin-top:5%;
+     border-radius:7px;
+     padding: 1%;
+     margin-left: 23%;
+     
+    
+ }
+.image
+{
+    width:1%;
+    margin-left: 42%;
+    padding: 2%;
+}
+ .btn{
+    padding: 1%;
+    border:none;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 7px;
+   
+}
+.btn1{
+    padding: 1%;
+    border:none;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 7px;
+    margin-left: 48%;
+}
+.btn-primary{
+    background-color:#ffbe76;
+}
+.btn-primary:hover{
+    background-color:#f6e58d;
+    color: tomato;
+}
+
+h2{
+    color:black;
+    font-size:3em ;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    font-family: 'Acme', sans-serif;
+    
+
+ }
+    .h-primary{
+        padding:5%;
+        margin-top: 2%;
+    }
+/* css for categories */
+.categories{
+   padding:0;
+   margin-top: 5%;
+ margin-left:20%;
+   margin-right:8%;
+   overflow: hidden;
+}
+
+.col{
+   
+   width:30%;
+   float: left;
+  }
+h3{
+   text-align: center;
+   font-size: x-large;
+}
+.row:after{
+   content:"";
+   display:table;
+   clear:both;
+   margin:2%;
+   }
+.bg{
+    background-color:#f7d794;
+    margin-top: 0;
+}
+.text-center{
+    text-align: center;
+    padding-top:8%;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding:1%;
+    font-weight: bold;
+}
+.img-responsive{
+    width: 100%;
+    
+}
+.clearfix{
+    clear:both;
+    float:none;
+}
+
+.food-menu-box{
+    
+    width:40%;
+    margin:1%;
+    float:left; 
+    background-color: white;
+    padding: 2%;
+    border-radius:12px;
+    background-color: cornsilk;
+}
+.food-menu{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 15px;
+    margin: 12px;
+    
+}
+.box2{
+    margin-right: 0%;
+    margin-left: 2%;
+}
+.text{
+    top:0;
+    /* padding:0; */
+    margin-left:4%;
+    margin-right: 4%;
+    
+ padding-left:0;
+    padding-right:0;
+    }
+.food-menu-img{
+
+    width:20%;
+    float:left;
+    padding:1%;
+     
+}
+
+
+.food-menu-desc{
+    width:70%;
+    float:left;
+    margin-left:8%;
+    }
+
+.food-details{
+    font-size:1.2rem;
+    margin-top:0;
+    margin-left: 0;
+    margin-right: 0;
+     padding:2%;
+}
+.food-price{
+    margin:0 0;
+    font-size: 1rem;
+}
+h4 {
+    display: block;
+    margin-block-start: 1.1em;
+    margin-block-end: 1.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/* css for social */
+.social ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    padding-left: 3%;
+    margin-top: 14%;
+    margin-right: 3%;
+}
+.bg2{
+    background-image: url('../images/contact.jpg');
+    background-repeat: no-repeat;
+    background-position:center ;
+    margin-left: 10%;
+    padding: 7%;
+}
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+fieldset {
+	border:1px solid #999;
+	border-radius:8px;
+	box-shadow:0 0 10px #999;
+}
+h3{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: medium;
+}
+
+

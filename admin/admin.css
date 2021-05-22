@@ -1,0 +1,160 @@
+/*
+Author: Aanchal Rawat & Udita Batra;
+Theme: Food Order Website Admin;
+Version: 1.0;
+*/
+
+*{
+    margin: 0;
+    padding:0%;
+    font-family: 'Baloo Bhai',cursive;
+}
+.wrapper{
+    
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+
+} 
+.clear-fix{
+    float: none;
+    clear: both;
+}
+table{
+    border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.tbl{
+    width: 100%;
+}
+.tbl tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+.tbl tr td{
+    padding: 1%;
+}
+.tbl-30{
+    width: 40%;
+    padding: 1%;
+}
+.btn-primary {
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    padding: 1%;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: burlywood;
+}
+.btn-secondary{
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    padding: 1%;
+    font-weight: bold;
+    width:fit-content;
+}
+.btn-secondary:hover{
+    background-color: burlywood;
+}
+/*CSS for Menu*/
+.menu{
+    border-bottom: 1px solid black;
+    padding: 3%;
+    font-size: 22px;
+    background-color: burlywood;
+}
+.menu ul{
+    list-style-type: none;
+   
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
+}
+.menu ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/*CSS for main content*/
+.main-content{
+    padding:3% 0 ;
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    
+}
+.col-4{
+    width: 18%;
+     color:black;
+    background-color:burlywood;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 1%;
+    float: left;
+}
+.padding-table-columns td
+{
+    padding:0 5px 0 0; /* Only right padding*/
+}
+.head{
+    color: black;
+}
+
+/*css for footer*/
+.footer{
+    background-color: burlywood;
+    color: white;
+    padding: 1%;
+    width:100%;
+    margin: 0 auto;
+    position:fixed;
+    bottom:0;
+}
+
+/*login for admin*/
+
+body  
+{  
+    margin: 0;  
+    padding: 0; 
+    background-color: white;
+    background-repeat: no-repeat; 
+    font-family: 'Arial';  
+}  
+.form-1{
+    font-size: medium;
+    color:white;
+}
+.login{
+    background-color: black;
+    color: white;
+    width:max-content;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 4%;
+    border-radius: 2%;
+}
+.btn-login{
+    width: 52%;
+}
+.success1{
+    color: white;
+}.error1{
+    color: white;
+}
